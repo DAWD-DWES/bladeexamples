@@ -1,0 +1,19 @@
+{
+    "name": "jivan/bladeexamples",
+    "description": "Blade examples",
+    "type": "project",
+    "require": {
+        "eftec/bladeone": "^4.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jivan\\Bladeexamples\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Iván",
+            "email": "jivanrod@gmail.com"
+        }
+    ]
+}
