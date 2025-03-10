@@ -41,5 +41,4 @@ $cursos = [$cursoFin1, $cursoCon1, $cursoCon2];
 // echo $blade->run('view-parameters-2', compact('persona', 'cursos'));
  $error = true;
  echo $blade->run('view-parameters-3', compact('persona', 'cursos', 'error'));
-
-
+// echo $blade->run('view-parameters-4', compact('persona', 'cursos'));

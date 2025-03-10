@@ -75,9 +75,10 @@
             </div>
         </div>
         <div class="jumbotron text-center" style="margin-bottom:0">
-            <p>Footer</p>
+            <p>Author: Iván Rodríguez</p>
+            <p><a href="mailto:ivan@ivan.com">ivan@ivan.com</a></p>
         </div>
-         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     </body>
 
 </html>
