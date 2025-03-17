@@ -4,10 +4,10 @@ require "../vendor/autoload.php";
 
 use eftec\bladeone\BladeOne;
 
-$views = __DIR__ . '\..\views'; // it uses the folder /views to read the templates
+$vistas = __DIR__ . '\..\vistas'; // it uses the folder /views to read the templates
 $cache = __DIR__ . '\..\cache'; // it uses the folder /cache to compile the result. 
 
-$blade = new BladeOne($views, $cache);
+$blade = new BladeOne($vistas, $cache);
 $blade->setBaseURL("http://{$_SERVER['SERVER_NAME']}:{$_SERVER['SERVER_PORT']}/");
 $blade->pipeEnable = true;
 
@@ -39,6 +39,6 @@ $cursos = [$cursoFin1, $cursoCon1, $cursoCon2];
 // echo $blade->run('view-parameters', ['persona' => $persona, 'cursos' => $cursos]);
 // echo $blade->run('view-parameters', compact('persona', 'cursos'));
 // echo $blade->run('view-parameters-2', compact('persona', 'cursos'));
- $error = true;
+ $error = false;
  echo $blade->run('view-parameters-3', compact('persona', 'cursos', 'error'));
 // echo $blade->run('view-parameters-4', compact('persona', 'cursos'));
